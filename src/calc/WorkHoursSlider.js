@@ -6,15 +6,15 @@ function WorkHoursSlider() {
     return (
         <> 
         <Typography id='discrete-slider-small-steps' gutterBottom>
-          Small steps
+          Arbeitsstunden/Woche
         </Typography>
         <Slider
-          defaultValue={0.00000005}
+          defaultValue={40}
         //   getAriaValueText='Arbeitsstunden'
           aria-labelledby='discrete-slider-small-steps'
-          step={10.0}
-          min={0.0}
-          max={6000.0}
+          step={1}
+          min={1}
+          max={80}
           valueLabelDisplay='auto'
         />
         </>
