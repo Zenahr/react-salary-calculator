@@ -4,20 +4,16 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import DataTable from './DataTable';
 import Footer from './Footer';
-import Button from '@material-ui/core/Button';
+import WorkHoursSlider from './calc/WorkHoursSlider';
 
 export default function App() {
   return (
     <Container maxWidth="sm">
-      <DataTable>
-    </DataTable>
-      <Box my={4}>
+      <WorkHoursSlider/>
+      <Box my={3}>
         <Typography variant="h4" component="h1" gutterBottom>
           Create React App v4-beta example
         </Typography>
-        <Button variant="contained" color="primary">
-      Example Button
-    </Button>
       <Footer name='Zenahr Barzani' />
       </Box>
     </Container>
